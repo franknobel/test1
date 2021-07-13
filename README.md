@@ -6,7 +6,7 @@ please create a project skeleton with the latest version of laravel.
 
 our social media app is going to provide some rest api under version 1 routs would be
 
-- `POST v1/login}` login [Public]
+- `POST v1/login` login [Public]
 - `POST v1/video` create new video [Authenticated API]
 - `PUT v1/video/{id}` update video [Authenticated API]
 - `GET v1/video/{id}` get video [Public]
