@@ -15,6 +15,8 @@ our social media app is going to provide some rest api under version 1 routs wou
 
 The goal is to create a simple RESTful api that provide above endpoint. consider all things you need a production ready project needs for them.
 
+when you complete the project create a PR and send it for our review.
+
 ## Models
 
 this project is going to work with Monogdb as data storage.
