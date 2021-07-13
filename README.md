@@ -13,7 +13,8 @@ our social media app is going to provide some rest api under version 1 routs wou
 - `PUT v1/video/{id}/like` like a video [Authenticated API]
 - `DELETE v1/video/{id}/like` unlike a video [Authenticated API]
 
-The goal is to create a simple RESTful api that provide above endpoint. consider all things you need a production ready project needs for them.
+The goal is to create a simple RESTful api that provide above endpoint. 
+consider all the things you need for a production grade project and implement the endpoint.
 
 when you complete the project create a PR and send it for our review.
 
@@ -42,7 +43,7 @@ we have three collection in our database `videos`, `likes`, `users`
 - created_at  _UTCDateTime_
 - created_by  _ObjectID_
 
-#### User
+#### Users
 
 - _id         _ObjectID_
 - name        _String_
