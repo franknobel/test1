@@ -29,24 +29,24 @@ we have three collection in our database `videos`, `likes`, `users`
 
 #### Videos
 
-- _id
-- name
-- file
-- created_at
-- created_by
+- _id         ObjectID
+- name        String
+- file        String
+- created_at  UTCDateTime
+- created_by  ObjectID
 
 #### Likes
 
-- _id
-- user_id
-- video_id
-- created_at
+- _id         ObjectID
+- video_id    ObjectID
+- created_at  UTCDateTime
+- created_by  ObjectID
 
 #### User
 
-- _id
-- name
-- created_at
+- _id         ObjectID
+- name        String
+- created_at  UTCDateTime
 - OTHER REQUIRED FIELDS FOR AUTHENTICATION
 
 
