@@ -15,8 +15,9 @@ our social media app is going to provide some rest api under version 1 routs wou
 
 The goal is to create a simple RESTful api that provide above endpoint. 
 consider all the things you need for a production grade project and implement the endpoint.
+Login endpoint should accept username/password and generate JWT in response for other authenticated endpoint clients will send this JWT as Bearer token in header.
 
-when you complete the project create a PR and send it for our review.
+*when you complete the project create a PR and send it for our review.*
 
 ## Models
 
@@ -45,9 +46,10 @@ we have three collection in our database `videos`, `likes`, `users`
 
 #### Users
 
-- _id         _ObjectID_
-- name        _String_
-- created_at  _UTCDateTime_
+- _id           _ObjectID_
+- username      _String_
+- password_hash _String_
+- created_at    _UTCDateTime_
 - OTHER REQUIRED FIELDS FOR AUTHENTICATION
 
 
