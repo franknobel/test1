@@ -8,11 +8,7 @@ our social media app is going to provide some rest api under version 1 routes wo
 
 - `POST v1/login` login [Public]
 - `POST v1/video` create new video [Authenticated API]
-- `PUT v1/video/{id}` update video [Authenticated API]
-- `GET v1/video/{id}` get video [Public]
 - `PUT v1/video/{id}/like` like a video [Authenticated API]
-- `DELETE v1/video/{id}/like` unlike a video [Authenticated API]
-- `GET v1/video/` list of video the login user uploaded. [Authenticated API]
 - `GET v1/liked/videos` list of videos the login user liked. [Authenticated API]
 
 The goal is to create a simple RESTful api that provide above endpoint. 
