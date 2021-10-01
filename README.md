@@ -13,7 +13,7 @@ our social media app is going to provide some rest api under version 1 routes wo
 - `PUT v1/video/{id}/like` like a video [Authenticated API]
 - `DELETE v1/video/{id}/like` unlike a video [Authenticated API]
 - `GET v1/video/` list of video the login user uploaded. [Authenticated API]
-- `GET v1/liked/videos` list of video the login user liked. [Authenticated API]
+- `GET v1/liked/videos` list of videos the login user liked. [Authenticated API]
 
 The goal is to create a simple RESTful api that provide above endpoint. 
 consider all the things you need for a production grade project and implement the endpoint.
